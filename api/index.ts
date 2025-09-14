@@ -5,8 +5,6 @@ import { Pool } from 'pg';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
-export const config = { runtime: 'nodejs18.x' };
-
 type JWTPayload = {
   sub: number;
   email: string;
