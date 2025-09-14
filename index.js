@@ -5,8 +5,6 @@ import { Pool } from 'pg';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
-export const config = { runtime: 'nodejs18.x' };
-
 const app = new Hono();
 
 // CORS configuration - allows all origins for testing
